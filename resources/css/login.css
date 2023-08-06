@@ -1,0 +1,71 @@
+body{
+    background-image: url('./images/loginback.png');
+    margin: 0px;
+    padding:0px;
+    background-repeat: no-repeat;
+}
+::-webkit-scrollbar{
+width:5px;
+
+}
+::-webkit-scrollbar-thumb{
+background:rgb(128, 128, 128);
+border-radius: 20px;
+height: 10%;
+}
+
+.userslist{
+    background-color:white;
+    height:480px;
+    width:506px;
+    border-radius: 25px;
+    margin-left:465px;
+    margin-top:120px;
+    overflow: scroll;
+    display:flex;
+    flex-direction: column;
+    font-family:sans-serif;
+    color:black;
+    font-size: medium;
+    
+}
+.usersimages{
+height:30px;
+width:30px;
+border-radius: 80%;
+
+}
+li{
+    list-style: none;
+padding-top: 0px;
+margin-top:10px;
+
+display:flex;
+
+}
+#header{
+    position: center;
+    background-color:whitesmoke;
+    height: 70px;
+    width:100%;
+padding-top:30px;
+    margin:0px;
+    color:black;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    margin-bottom: auto;
+    text-align:center;
+position:sticky;
+    font-size: 19px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius:0px;
+    font-weight:2px;
+}
+span{
+    margin-left: 5px;
+    font-size: 15px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}

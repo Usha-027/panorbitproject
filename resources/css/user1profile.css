@@ -1,0 +1,262 @@
+body{
+    background-color: white;
+    object-fit: cover;
+    height: 100vh;
+    width:100%;
+    margin:0px auto;
+    padding:0px;
+    font-family: arial;
+    
+}
+/*sidebar css part starting */
+.tabpic{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+}
+#pro1{
+    height:180px;
+    width:180px;
+    border-radius: 70%;
+    padding-top: 20px;
+}
+.taskbar1{
+    height:95%;
+    width:240px;
+    background: rgb(31,102,182);
+    object-fit: cover;
+    color:white;
+margin-left:50px;
+margin-bottom: 10px;
+margin-top:45px;
+    border-radius: 20px;
+}
+div{
+    float:left;
+    margin-left:10px;
+}
+.taskbar hr{
+    width:5px;
+    color: gray;
+}
+.usertabbar{
+width:50%;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+    text-align: left;
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top:15px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    line-height: 30px;
+    padding-left:10px;
+
+}
+    
+hr{
+    width:100px;
+    margin-left: 0px;
+    color:white;
+}
+
+ul{
+    padding-top:200px;
+    padding-bottom:400px;
+}
+li:hover{
+    background-color:white;
+    color:gray;
+    transition: 0.2s;
+}
+/*css styling end*/
+/*startpoint of styling div classname="usertabbar"*/
+.usertabbar{
+    margin-right:0px;
+    display: flex;
+    margin-left:30px;
+    margin-top:70px;
+}
+.tabpic{
+    margin-left:500px;
+}
+#r{
+    width:1000px;
+}
+span{
+    
+    margin-left:20px;
+    text-align:center;
+    margin-top:10px;
+}
+.userdetails{
+    width:450px;
+    padding-left:5px;
+    text-align: center;
+}
+h2{
+    font-size: 25px;
+    padding-left:30px;
+    color: rgb(87, 82, 80);
+    font-weight: lighter;
+}
+
+h3{
+    font-size: 18px;
+    color: rgb(87, 82, 80);
+    text-align: center;
+    font-weight: lighter;
+
+}
+#u{
+    width:400px;
+}
+#vertical-bar{
+    height: 500px;
+    width:1px;
+    background-color: gray;
+    padding-top:30px;
+    padding-bottom: 30px;
+    margin-top: 50px;
+}
+h2 span{
+    color:gray;
+}
+h3 span{
+    color:gray;
+}
+h3{
+    text-align: center;
+}
+/*end of class="userdetails" styling*/
+/*start of styling class="addetails"*/
+
+.ad{
+    padding-left: 70px;
+    text-align: left;
+    font-size: 20px;
+}
+#map{
+    height:300px;
+    width:600px;
+    padding-left: 30px;
+    border-radius: 20px;
+}
+#w{
+    padding-top:20px;
+    font-size: 15px;
+    margin-left: 400px;
+}
+#d{
+    font-size: 20px;
+    font-weight: lighter;
+}
+/*endpoint of class="addetails"*/
+/*start of profile*/
+.userwrap{
+    background-color: aquamarine;
+    height:600px;
+    width:300px;
+    display:flex;
+}
+
+
+
+/*drop-down design*/
+.dropbtn {
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: white;
+  }
+
+
+  .dropdown{
+    border-radius: 10px;
+  }
+  .x{
+    height:30px;
+    width:30px;
+    border-radius: 50%;
+  }
+  #droppic{
+    height:50px;
+    width:50px;
+    border-radius: 50%;
+    object-position: center;
+    padding-top: 20px;
+  }
+  .dropdown-content{
+    height:350px;
+    width:200px;
+    border-radius: 40px;
+    padding-right: 40px;
+    padding-left:40px;
+    text-align: center;
+  }
+  button{
+    background-color: red;
+    color:white;
+    border-radius: 10px;
+    height:50px;
+    width:100px;
+  }
+  #i{
+    width:200px;
+  }
+  #f{
+    float:right;
+    text-align: right;
+  }
+  #p{
+    width:1000px;
+    height:2px;
+    padding-left: 30px;
+  }
+  #h{
+    text-align: center;
+
+  }
+  .blank{
+    height:50px;
+    width:300px;
+  }
